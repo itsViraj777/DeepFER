@@ -54,4 +54,32 @@ This project supports real-time emotion detection from webcam feed as well as st
 1. **Clone the repository**
 ```bash
 git clone https://github.com/yourusername/DeepFER.git
+```
+2. **Install dependencies**
+   ```
+   pip install -r requirements.txt
+   ```
+3. (Optional) Install GPU support Ensure you have CUDA-compatible drivers and PyTorch with GPU support installed.
+
+## 🧪 Training the Models
+Ensure your training dataset follows this structure:
+TrainingImages/
+└── sad/
+    ├── img1.jpg
+    ├── img2.jpg
+Then run
+```
+python train_models.py
+```
+This will:
+
+1. Train both CNN and Transfer Learning models
+2. Save them as emotion_model_cnn.pth and emotion_model_transfer.pth
+3. Generate training accuracy/loss graphs
+
+## 📷 Run Inference (Image or Webcam)
+```
+python facial_recognition.py
+```
+
 
