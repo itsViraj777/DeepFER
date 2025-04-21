@@ -52,13 +52,13 @@ This project supports real-time emotion detection from webcam feed as well as st
 ## 🚀 Installation
 
 1. **Clone the repository**
-```bash
+```
 git clone https://github.com/yourusername/DeepFER.git
 ```
 2. **Install dependencies**
-   ```
-   pip install -r requirements.txt
-   ```
+```
+pip install -r requirements.txt
+```
 3. (Optional) Install GPU support Ensure you have CUDA-compatible drivers and PyTorch with GPU support installed.
 
 ## 🧪 Training the Models
