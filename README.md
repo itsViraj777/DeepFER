@@ -5,7 +5,8 @@ DeepFER is a Facial Emotion Recognition system built using Deep Learning. It use
 This project supports real-time emotion detection from webcam feed as well as static image files. It has applications in human-computer interaction, mental health monitoring, and smart surveillance.
 
 ## 📸 Demo
-![Demo](https://github.com/yourusername/deepfer/assets/demo.gif) <!-- (replace or remove if not available) -->
+![Demo](![Untitled](https://github.com/user-attachments/assets/8fd68da5-7ccc-4f99-9b5f-37865eb6f41b)
+) <!-- (replace or remove if not available) -->
 
 ---
 
